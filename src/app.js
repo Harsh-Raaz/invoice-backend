@@ -16,6 +16,8 @@ const app = express();
 // --------------------
 // ✅ CORS Configuration (Fixes frontend request issue)
 // --------------------
+// Trigger Render redeploy
+
 app.use(
   cors({
     origin: "http://localhost:5173", // your React frontend
