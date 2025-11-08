@@ -9,7 +9,7 @@ import twilioRoutes from "./routes/twilio.routes.js"; // ✅ Changed from whatsa
 import notificationRoutes from "./routes/notification.routes.js";
 import authRoutes from "./routes/auth.routes.js";
 import errorMiddleware from "./middlewares/error.middleware.js";
-import { stripeWebhooks } from "./controllers/webhooks.js";
+import { stripeWebhooks } from "./controllers/webHooks.js";
 
 const app = express();
 
